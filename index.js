@@ -1,4 +1,3 @@
 
 const pkg = require('./package.json')
-console.log('running version ' + pkg.version)
-console.log('this is awesome!')
+console.log('running version ' + pkg.version + ', ' + pkg.name)
