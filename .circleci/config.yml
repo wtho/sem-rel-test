@@ -8,8 +8,23 @@ jobs:
       - checkout
       - run: npm start
 
+  publish:
+    docker:
+      - image: circleci/node:10
+    steps:
+      - checkout
+      - run:
+          name: run semantic release
+          command: |
+            npm install
+            npx semantic-release
+
+
 workflows:
   version: 2
-  build-and-deploy:
+  build-and-publish:
     jobs:
       - build
+      - publish:
+          requires:
+            - build
