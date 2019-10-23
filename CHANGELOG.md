@@ -1,3 +1,10 @@
+## [3.0.1](https://github.com/wtho/sem-rel-test/compare/v3.0.0...v3.0.1) (2019-10-23)
+
+
+### Bug Fixes
+
+* add exclamation mark ([8d8afd2](https://github.com/wtho/sem-rel-test/commit/8d8afd2903857fa0eb6d30ed5b5438d49640d50a))
+
 # [3.0.0](https://github.com/wtho/sem-rel-test/compare/v2.1.0...v3.0.0) (2019-10-23)
 
 
