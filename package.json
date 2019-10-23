@@ -1,6 +1,6 @@
 {
   "name": "sem-rel-test",
-  "version": "1.0.0",
+  "version": "2.1.0",
   "description": "a semantic release test",
   "main": "index.js",
   "scripts": {
@@ -34,13 +34,16 @@
       "@semantic-release/release-notes-generator",
       "@semantic-release/changelog",
       "@semantic-release/npm",
-      [ "@semantic-release/git", {
-        "message": "ci(release): ${nextRelease.version}\n\n${nextRelease.notes}\n\n[skip ci]",
-        "assets": [
-          "CHANGELOG.md",
-          "package.json"
-        ]
-      }],
+      [
+        "@semantic-release/git",
+        {
+          "message": "ci(release): ${nextRelease.version}\n\n${nextRelease.notes}\n\n[skip ci]",
+          "assets": [
+            "CHANGELOG.md",
+            "package.json"
+          ]
+        }
+      ],
       "@semantic-release/github"
     ]
   }
