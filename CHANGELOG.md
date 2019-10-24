@@ -1,3 +1,10 @@
+# [3.1.0](https://github.com/wtho/sem-rel-test/compare/v3.0.1...v3.1.0) (2019-10-24)
+
+
+### Features
+
+* **release:** add new config with references ([a48a18b](https://github.com/wtho/sem-rel-test/commit/a48a18b85042cc4967ce1612720d9906c33390e8)), closes [#16](https://github.com/wtho/sem-rel-test/issues/16)
+
 ## [3.0.1](https://github.com/wtho/sem-rel-test/compare/v3.0.0...v3.0.1) (2019-10-23)
 
 

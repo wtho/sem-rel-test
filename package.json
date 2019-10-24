@@ -1,6 +1,6 @@
 {
   "name": "sem-rel-test",
-  "version": "3.0.1",
+  "version": "3.1.0",
   "description": "a semantic release test",
   "main": "index.js",
   "scripts": {
@@ -30,16 +30,46 @@
   },
   "release": {
     "plugins": [
-      ["@semantic-release/commit-analyzer", {
-        "parserOpts": {
-          "referenceActions": ["close", "closes", "closed", "fix", "fixes", "fixed", "resolve", "resolves", "resolved", "merge", "merges"]
+      [
+        "@semantic-release/commit-analyzer",
+        {
+          "parserOpts": {
+            "referenceActions": [
+              "close",
+              "closes",
+              "closed",
+              "fix",
+              "fixes",
+              "fixed",
+              "resolve",
+              "resolves",
+              "resolved",
+              "merge",
+              "merges"
+            ]
+          }
         }
-      }],
-      ["@semantic-release/release-notes-generator", {
-        "parserOpts": {
-          "referenceActions": ["close", "closes", "closed", "fix", "fixes", "fixed", "resolve", "resolves", "resolved", "merge", "merges"]
+      ],
+      [
+        "@semantic-release/release-notes-generator",
+        {
+          "parserOpts": {
+            "referenceActions": [
+              "close",
+              "closes",
+              "closed",
+              "fix",
+              "fixes",
+              "fixed",
+              "resolve",
+              "resolves",
+              "resolved",
+              "merge",
+              "merges"
+            ]
+          }
         }
-      }],
+      ],
       "@semantic-release/changelog",
       "@semantic-release/npm",
       [
