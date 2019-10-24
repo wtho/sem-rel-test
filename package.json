@@ -30,8 +30,16 @@
   },
   "release": {
     "plugins": [
-      "@semantic-release/commit-analyzer",
-      "@semantic-release/release-notes-generator",
+      ["@semantic-release/commit-analyzer", {
+        "parserOpts": {
+          "referenceActions": ["close", "closes", "closed", "fix", "fixes", "fixed", "resolve", "resolves", "resolved", "merge", "merges"]
+        }
+      }],
+      ["@semantic-release/release-notes-generator", {
+        "parserOpts": {
+          "referenceActions": ["close", "closes", "closed", "fix", "fixes", "fixed", "resolve", "resolves", "resolved", "merge", "merges"]
+        }
+      }],
       "@semantic-release/changelog",
       "@semantic-release/npm",
       [
