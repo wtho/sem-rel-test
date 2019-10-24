@@ -1,3 +1,10 @@
+# [3.2.0](https://github.com/wtho/sem-rel-test/compare/v3.1.0...v3.2.0) (2019-10-24)
+
+
+### Features
+
+* undo something in package ([#25](https://github.com/wtho/sem-rel-test/issues/25)) ([6010823](https://github.com/wtho/sem-rel-test/commit/6010823fcc56b615534cbb34b97405d4ea7b8178))
+
 # [3.1.0](https://github.com/wtho/sem-rel-test/compare/v3.0.1...v3.1.0) (2019-10-24)
 
 
